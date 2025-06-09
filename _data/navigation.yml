@@ -1,0 +1,29 @@
+main:
+  - title: "Home"
+    url: "/"
+    blank: false
+
+  - title: "Contact"
+    url: "#contact"
+    blank: false
+
+  - title: "Services"
+    url: "#services"
+    blank: false
+
+  # - title: "Gallery"
+  #   url: "/gallery/"
+  #   blank: false
+
+  - title: "Pricing"
+    url: "/pricing/"
+    blank: false
+
+  - title: "About"
+    url: "/about/"
+    blank: false
+
+  # - title: "Book Now"
+  #   url: "/book/"
+  #   blank: false
+  #   description: "Primary call to action"
