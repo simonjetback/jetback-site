@@ -182,22 +182,20 @@ html {
           border-radius: 5px;
         }
 
-        button {
-          background: $accent-color;
-          color: #000;
-          padding: 0.75rem 2rem;
-          border: none;
-          font-weight: 600;
-          font-size: 1rem;
-          cursor: pointer;
-          border-radius: 5px;
-          transition: background 0.3s ease;
+        .btn {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background-color: #f26522; // your JetBack orange
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      border-radius: 6px;
+      transition: background 0.3s ease;
 
-          &:hover {
-            background: #000000;
-            color: #ffffff;
-          }
-        }
+      &:hover {
+        background-color: #d6541b;
+      }
+    }
       }
     }
   }
@@ -230,11 +228,12 @@ html {
   text-shadow: none !important;
 }
 .page__hero--overlay {
-  min-height: 60vh; // or whatever height you want
+    margin-bottom: 0 !important;
+    min-height: 60vh; // or whatever height you want
 }
 
 .page__hero--overlay .wrapper {
-  padding-top: 80px; /* adjust based on your nav height */
+  padding-top: 100px; /* adjust based on your nav height */
 }
 
 .page__footer {
@@ -269,3 +268,101 @@ html {
   vertical-align: middle;
 }
 
+
+
+.site-section.alternative-color#about-us {
+  background-color: $primary-color;
+  padding: 2em 0;
+
+  .about-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1em;
+  }
+
+  .about-image {
+    flex: 1 1 350px;
+    text-align: center;
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+  }
+
+  .about-text {
+    flex: 1 1 350px;
+
+    h2 {
+      font-size: 1.5rem; // reduced from 2rem
+      font-family: 'Poppins', sans-serif;
+      color: $footer-text-color;
+      margin-bottom: 1rem;
+    }
+
+    h3 {
+      font-size: 1.25rem; // reduced from 1.5rem
+      font-family: 'Montserrat', sans-serif;
+       margin-top: 0;   
+      margin-bottom: 1rem;
+      color: $footer-text-color;
+    }
+    
+
+    p {
+      font-size: 1rem; // reduced from 1.1rem
+      line-height: 1.6;
+      color: $footer-text-color;
+      margin-bottom: 0.75rem;
+    }
+
+    .about-cta {
+      margin-top: 1.25rem;
+
+      .button {
+        padding: 0.6em 1.25em;
+        font-size: 0.95rem;
+      }
+
+      .phone,
+      .location {
+        margin-top: 0.5rem;
+        font-size: 0.95rem;
+        color: $footer-text-color;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.about-image {
+  text-align: center;
+
+  .contact-button {
+    margin-top: 1rem;
+
+    .btn {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background-color: #f26522; // your JetBack orange
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      border-radius: 6px;
+      transition: background 0.3s ease;
+
+      &:hover {
+        background-color: #d6541b;
+      }
+    }
+  }
+}

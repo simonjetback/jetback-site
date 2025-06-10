@@ -20,7 +20,7 @@ main:
     blank: false
 
   - title: "About"
-    url: "/about/"
+    url: "#about-us"
     blank: false
 
   # - title: "Book Now"
