@@ -353,3 +353,25 @@ html {
 #contact-form button.btn {
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
 }
+input::placeholder,
+textarea::placeholder {
+  font-family: 'Montserrat', sans-serif;
+  color: #999; // optional: adjust to match your design
+  font-size: 1rem; // optional: match your input size
+}
+
+input,
+textarea {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem; // optional, for consistency
+  color: #222;     // optional, to match your $text-color
+}
+
+button,
+.btn,
+input[type="submit"] {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem; // or match your preferred button size
+  font-weight: 600;
+  color: $btn-text-color;
+}
