@@ -1,6 +1,18 @@
 main:
-  - title: "Home"
-    url: "/"
+  # - title: "Home"
+  #   url: "/"
+  #   blank: false
+
+  # - title: "Gallery"
+  #   url: "/gallery/"
+  #   blank: false
+
+  # - title: "Pricing"
+  #   url: "/pricing/"
+  #   blank: false
+
+  - title: "About"
+    url: "#about-us"
     blank: false
 
   - title: "Contact"
@@ -9,18 +21,6 @@ main:
 
   - title: "Services"
     url: "#services"
-    blank: false
-
-  # - title: "Gallery"
-  #   url: "/gallery/"
-  #   blank: false
-
-  - title: "Pricing"
-    url: "/pricing/"
-    blank: false
-
-  - title: "About"
-    url: "#about-us"
     blank: false
 
   # - title: "Book Now"
