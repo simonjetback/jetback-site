@@ -10,7 +10,7 @@ oneflow-skin    : "jetback" # "default", "air", "aqua", "contrast", "dark", "dir
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Jetback"
+title                    : "Jetback Cleaning"
 description: >- 
   Professional Jet Washing – Driveways, Patios, Windows & More
 title_separator          : "-"
