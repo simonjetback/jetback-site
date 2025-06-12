@@ -52,9 +52,9 @@ footer:
       icon: "fab fa-instagram"
       url: "https://instagram.com/jetbackcleaning"  # optional but great for before/after pics
 
-    # - label: "Google Reviews"
-    #   icon: "fa fa-star"
-    #   url: "https://g.page/jetbackcleaning/review"  # replace with your Google Business profile
+    - label: "Google Reviews"
+      icon: "fa fa-star"
+      url: "https://g.co/kgs/b1cTZ72"  # replace with your Google Business profile
 
   copyright: "JetBack. All rights reserved."
 
