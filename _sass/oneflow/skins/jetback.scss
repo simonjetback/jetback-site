@@ -458,3 +458,29 @@ input[type="submit"] {
   text-align: center;
   padding: 0 1rem; // optional: keeps spacing on small screens
 }
+
+
+.site-section.alternative-color#about-us .about-image img {
+  @media (max-width: 768px) {
+    padding-top: 1.5rem;
+  }
+}
+
+.site-section.alternative-color#about-us .about-text h2 {
+  @media (max-width: 768px) {
+    margin-top: 0.5rem; // or 0 if you want it tighter
+  }
+}
+
+.contact-heading {
+  @media (max-width: 768px) {
+    margin-top: 0.5rem; // or 0 if needed
+  }
+}
+.contact-column.contact-text p {
+  @media (max-width: 768px) {
+    margin-bottom: 0; // or 0 if you want it tighter
+  }
+}
+
+
