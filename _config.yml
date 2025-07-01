@@ -13,7 +13,7 @@ locale                   : "en-GB"
 title                    : "Jetback Cleaning"
 description: "Professional exterior cleaning services across Norfolk — driveways, gutters, windows, fascias and more."
 title_separator          : "-"
-subtitle                 : "Reviving Surfaces. Restoring Pride." # Displayed in the masthead below the title, use " " for no subtitle
+subtitle                 : "" # Displayed in the masthead below the title, use " " for no subtitle
 url                      : "https://jetback.co.uk" # the base hostname & protocol for your site
 baseurl                  : ""
 repository               : "perstarke-webdev/oneflow-jekyll-theme" # GitHub username/repo-name
