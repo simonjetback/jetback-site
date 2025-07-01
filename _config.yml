@@ -11,7 +11,7 @@ oneflow-skin    : "jetback" # "default", "air", "aqua", "contrast", "dark", "dir
 # Site Settings
 locale                   : "en-GB"
 title                    : "Jetback Cleaning"
-description: "Professional exterior cleaning services across Norfolk — driveways, gutters, windows, fascias and more.""
+description: "Professional exterior cleaning services across Norfolk — driveways, gutters, windows, fascias and more."
 title_separator          : "-"
 subtitle                 : "Reviving Surfaces. Restoring Pride." # Displayed in the masthead below the title, use " " for no subtitle
 url                      : "https://jetback.co.uk" # the base hostname & protocol for your site
