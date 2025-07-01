@@ -32,13 +32,24 @@
 {% endif %}
 
   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     {% seo %}
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="{{ '/assets/images/favicon.ico' | relative_url }}">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Montserrat&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome (optional) -->
+    <script src="https://kit.fontawesome.com/your-kit-id.js" crossorigin="anonymous"></script>
+
     {% include head.html %}
     {% include head/custom.html %}
-    <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
-
-
   </head>
+
 
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
     {% include_cached masthead.html %}

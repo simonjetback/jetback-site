@@ -9,14 +9,13 @@
 oneflow-skin    : "jetback" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "en-GB"
 title                    : "Jetback Cleaning"
-description: >- 
-  Professional Jet Washing – Driveways, Patios, Windows & More
+description: "Professional exterior cleaning services across Norfolk — driveways, gutters, windows, fascias and more.""
 title_separator          : "-"
-subtitle                 : " " # Displayed in the masthead below the title, use " " for no subtitle
+subtitle                 : "Reviving Surfaces. Restoring Pride." # Displayed in the masthead below the title, use " " for no subtitle
 url                      : "https://jetback.co.uk" # the base hostname & protocol for your site
-baseurl                  : # the subpath of your site, e.g. "/blog"
+baseurl                  : ""
 repository               : "perstarke-webdev/oneflow-jekyll-theme" # GitHub username/repo-name
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/logo.png" # Site logo displayed in the masthead
@@ -30,6 +29,15 @@ masthead-opacity         : 0.85 # set to any value between 0 and 1.
 background-image         : # '/assets/images/header.webp' # Remove / out-comment, if you don't want a background image
 background-image-mobile  : # '/assets/images/header.webp' # If you want a different (e.g upright) background image for mobile
 background-image-overlay : rgba(255, 255, 255, 0.5) # Set overlay for the background image
+author:
+  name: Simon Back
+  email: info@jetback.co.uk
+
+social:
+  name: JetBack
+  links:
+    - https://www.facebook.com/61575979209943/
+    - https://instagram.com/jet_back
 
 
 
@@ -44,13 +52,13 @@ footer:
       icon: "fa fa-phone"
       url: "tel:07465 653849"
 
-    # - label: "Facebook"
-    #   icon: "fab fa-facebook"
-    #   url: "https://facebook.com/jetbackcleaning"  # create/replace with your actual page
+    - label: "Facebook"
+      icon: "fab fa-facebook"
+      url: "https://www.facebook.com/61575979209943/"  # create/replace with your actual page
 
-    # - label: "Instagram"
-    #   icon: "fab fa-instagram"
-    #   url: "https://instagram.com/jetbackcleaning"  # optional but great for before/after pics
+    - label: "Instagram"
+      icon: "fab fa-instagram"
+      url: "https://instagram.com/jet_back"  # optional but great for before/after pics
 
     # - label: "Google Reviews"
     #   icon: "fa fa-star"
