@@ -17,6 +17,20 @@
 -->
 
 <html lang="{{ site.locale | slice: 0,2 | default: 'en' }}" class="no-js">
+  {% if jekyll.environment == "production" %}
+  <!-- Google Analytics code here -->
+
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YY78RE7YBG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-YY78RE7YBG');
+</script>
+{% endif %}
+
   <head>
     {% include head.html %}
     {% include head/custom.html %}
