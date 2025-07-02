@@ -484,3 +484,22 @@ input[type="submit"] {
 }
 
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.contact-column.contact-text p {
+  font-family: 'Montserrat', sans-serif; // enforce font
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #ffffff; // to match the section background
+  margin-bottom: 1rem; // optional: consistent spacing
+}
