@@ -11,16 +11,16 @@ main:
   #   url: "/pricing/"
   #   blank: false
 
-  - title: "About"
-    url: "#about-us"
+  - title: "Services"
+    url: "#services"
     blank: false
 
   - title: "Contact"
     url: "#contact"
     blank: false
 
-  - title: "Services"
-    url: "#services"
+  - title: "About"
+    url: "#about-us"
     blank: false
 
   # - title: "Book Now"
