@@ -74,6 +74,7 @@ footer:
 include:
   - .htaccess
   - _pages
+  - google1234567890abcdef.html 
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
