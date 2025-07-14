@@ -26,7 +26,7 @@
           {{ page.title | default: site.title | markdownify | remove: "<p>" | remove: "</p>" }}
       </h1>
       {% if page.header.show_overlay_excerpt != false and page.excerpt %}
-        <p class="page__lead">{{ page.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+        <p class="page__lead">{{ page.subtitle | markdownify | remove: "<p>" | remove: "</p>" }}</p>
       {% endif %}
       {% if page.header.actions %}
       <div style="text-align: center">
